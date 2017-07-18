@@ -1,6 +1,6 @@
 
 body {
-	margin: 100px;
+	margin: 50px 120px;
 }
 
 #search {
@@ -13,6 +13,8 @@ body {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	padding-top: 50px;
+
 }
 
 .row {
@@ -20,6 +22,50 @@ body {
 	height: 200px;
 	border: 1px black solid;
 	list-style-type: none;
-	
+	margin-bottom: 50px;
+	color: lightblue;
+	overflow: hidden;
+}
+
+a:hover {
+	-webkit-filter: blur (5px);
+    filter: blur (5px);
+}
+
+a {
+	color: lightgreen;
+	font-weight: 400;
+}
+
+h4 {
+	text-align: center;
+	color: lightskyblue;
+	position: relative;
+	top: -210px;
+	text-shadow: 2px 1px 2px black;
+}
+
+li {
+	position: relative;
+	top: -215px;
+	text-align: center;
+	color: aquamarine;
+	text-shadow: 2px 1px 1px black;
+}
+
+img {
+	height: 200px;
+	width: 200px;
+}
+
+button {
+	text-align: center;
+	cursor: pointer;
+	border-radius: 5px;
+	background-color: aquamarine;
+
+}
+button:hover {
+	background-color: lightskyblue;
 }
 
