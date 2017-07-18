@@ -1,0 +1,25 @@
+
+body {
+	margin: 100px;
+}
+
+#search {
+	width: 300px;
+	margin-bottom: 40px;
+}
+
+.container {
+	border-top: solid black 1px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.row {
+	width: 200px;
+	height: 200px;
+	border: 1px black solid;
+	list-style-type: none;
+	
+}
+
